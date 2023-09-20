@@ -24,39 +24,39 @@ export const shoes = [
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '1', label: 'Shop' },
+    { value: '8+', label: 'Years' },
+    { value: '1000+', label: ' Happy Customers' },
 ];
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        
+        name: "Periodic Services",
+        price: " ₹ 99 ",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+       
+        name: "Two-wheeler Inspections",
+        price: "Connect for details",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        
+        name: "Tyres and Wheel care",
+        price: "Connect for details",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        name: "Detailic Services",
+        price: "Connect for details",
     },
 ];
 
 export const services = [
     {
         imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        label: "No hidden Charges",
+        subtext: "Enjoy seamless  with our complimentary  service."
     },
     {
         imgURL: shieldTick,
@@ -73,31 +73,31 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        customerName: 'Prashant Kumar',
+        rating: 4.7,
+        feedback: "The attention to detail and the quality of the service exceeded my expectations. Highly recommended!"
     },
     {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        imgURL: "not to seee ",
+        customerName: 'Aadil muniri',
+        rating: 5.0,
+        feedback: "The  not only met but exceeded my expectations. I'll definitely be a returning customer!"
     }
 ];
 
 
 export const footerLinks = [
-    {
-        title: "Products",
-        links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
-        ],
-    },
+    // {
+    //     title: "Products",
+    //     links: [
+    //         { name: "Air Force 1", link: "/" },
+    //         { name: "Air Max 1", link: "/" },
+    //         { name: "Air Jordan 1", link: "/" },
+    //         { name: "Air Force 2", link: "/" },
+    //         { name: "Nike Waffle Racer", link: "/" },
+    //         { name: "Nike Cortez", link: "/" },
+    //     ],
+    // },
     {
         title: "Help",
         links: [
@@ -111,14 +111,19 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "Saifi auto  Workshop", link: "" },
+            { name: "Chachrai mode infront of janta inter college", link: "" },
+            { name: "Jahangirabad BulandShahr ", link: "" },
+            { name: "Zip 202394", link: "" },
+            { name: ",, ", link: "" },
+            { name: "saifiauto@outlook.com", link: "mailto:harishsaifi2001@gmail.com" },
+            { name: "call now 9536050891", link: "tel:+919536050891" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo",link:"https://www.facebook.com/harishsaifi01" },
+    { src: twitter, alt: "twitter logo",link:"" },
+    { src: instagram, alt: "instagram logo" ,link:"https://www.instagram.com/harissaifi__/"},
 ];

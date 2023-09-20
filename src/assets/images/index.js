@@ -2,8 +2,15 @@ import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
 
+//my
+import bike0 from './bike0.jpg'
+import bike1 from './bike1.jpg'
+import bike2 from './bike2.jpg'
+
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
+
+import auto from './auto.png'
 
 import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
@@ -28,6 +35,12 @@ export {
 
     customer1,
     customer2,
+
+
+    auto,
+    bike0,
+    bike1,
+    bike2,
 
     footerLogo,
     headerLogo,

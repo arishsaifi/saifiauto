@@ -19,6 +19,7 @@ const CustomerReviews = () => {
           <ReviewCard
             key={index}
             imgURL={review.imgURL}
+            alt="image Hidden"
             customerName={review.customerName}
             rating={review.rating}
             feedback={review.feedback}

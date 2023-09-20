@@ -1,24 +1,26 @@
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
+// import { footerLogo } from "../assets/images";
+import logo from '../assets/images/auto.png'
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
   return (
     <footer className='max-container'>
       <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
-        <div className='flex flex-col items-start'>
+        <div className='flex flex-col items-start text-white-400'>
           <a href='/'>
             <img
-              src={footerLogo}
+              src={logo}
               alt='logo'
               width={150}
               height={46}
               className='m-0'
             />
+            Saifi Auto Jahangirabad
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest Nike store. Find
-            Your perfect Size In Store. Get Rewards
+            Get ready for the new term at our store. Find
+            and  Get Offers
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (
@@ -26,7 +28,7 @@ const Footer = () => {
                 className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
                 key={icon.alt}
               >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <a href={icon.link}><img src={icon.src} alt={icon.alt} width={24} height={24} /></a>
               </div>
             ))}
           </div>
